@@ -1,3 +1,7 @@
+NOTAS USO GIT (tiene que estar instalado en el PC). Esta misma instalación
+del pc se puede usar con Github o con Gitlab y además Github y Gitlab pueden
+sincronizarse entre sí.
+
 Sistema distribuido para control de versiones. Tengo cuenta en Github y Gitlab
 puedo sincronizar proyectos de una en otra.
 ejectuar git bash desde C:\Archivos de Programa\git\
@@ -46,7 +50,7 @@ git mv file1.txt
 # crear un archivo llamado .gitignore y pongo en la primera línea .env, el archivo
 # que no quiero que sea actualizado (en este caso .env)
 add .gitignore
-git commit -m gitignore
+git commit -m .gitignore
 
 #crear ramas de desarrollo:
 git checkout -b nombre_rama
@@ -56,6 +60,7 @@ merge ramab
 
 #actualizar todo en el servidor
 git remote add origin https://github.com/Cruzymendez/Rep-Git-1.git #Para Github
+git remote set-url origin https://gitlab.com/area_tecnica/SEG_Calendario/Rep-Git-1.git #Para Gitlab
 git push -u origin master
 
 #conseguir el token en github:
