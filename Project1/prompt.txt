@@ -1,0 +1,20 @@
+Ahora necesitaría el código en python que implemente un algoritmo de greedy balanceado para completar la información de las tablas.
+El algoritmo definirá una variable que se llamará dia_actual y que tomará como valor el día actual de la forma "dd/mm/aaaa". Recorrerá la tabla CALENDARIO fila a fila desde ese día hasta el final y chequeará para cada fila el "Modo_trabajo", si el valor no es "Mantenimiento" dejará la fila sin modificar. Si el valor es "Mantenimiento" entonces elegirá dos empleados de la tabla EMPLEADOS y escribirá sus nombres separados por una coma en la celda correspondiente a la columna "Personas_T1". Estos dos empleados no podrán coincidir en ningún caso con los que aparezcan en esa misma fila para los campos "Personas_vacaciones", "Personas_baja", "Personas_medico" o  "Personas_teletrabajo". 
+Si solo puede puede encontrar un empleado, entonces solo escribirá uno. En cualquier caso, el programa también el campo "FORMACION" de la tabla EMPLEADOS y no propondrá un solo empleado si éste tiene el campo "FORMACION" con valor igual a "Formacion". Si no encuentra ningún empleado o solo encuentra empleados en formación, escribirá en la celda "NADIE".  
+Después de hacer esto, el programa sumará 1 al valor de la columna "ND_T1" de la tabla EMPLEADOS para cada uno de los empleados encontrados. Sumará 1 también al valor de la columna "MNT_M" de la tabla RECUENTO para cada uno de los empleados encontrados y calculará la desviación estandar de ese valor para cada empleado, actualizando toda la columna "DEV_MNT_M" para cada empleado. 
+En cada paso los nuevos empleados elegidos serán de los disponibles, los que más uniformicen el valor DEV_MNT_M para todos los empleados.
+Todo esto lo repetirá hasta llegar al final de la tabla CALENDARIO tratando de que el valor "DEV_MNT_M" de la tabla RECUENTO sea lo más uniforme e igual posible para todos los empleados.
+Tenemos una base de datos 
+? Obtener el día actual (dia_actual) en formato dd/mm/aaaa.
+? Buscar la primera fila en la tabla CALENDARIO donde Dia_year = dia_actual.
+? Recorrer todas las filas desde dia_actual hasta el final del año.
+? Si Modo_trabajo ? "Mantenimiento", dejar la fila sin modificar.
+? Si Modo_trabajo == "Mantenimiento", seleccionar dos empleados siguiendo estas reglas:
+
+No pueden estar en vacaciones, baja, médico o teletrabajo.
+No se puede asignar un solo empleado si está en formación.
+Si no hay empleados disponibles, escribir "NADIE".
+? Actualizar los contadores en las tablas EMPLEADOS (ND_T1) y RECUENTO (MNT_M).
+? Minimizar la desviación estándar de MNT_M en RECUENTO al elegir empleados.
+Necesitaría un código en python que se conectara a una base de datos sqlite3 denominada "data2025.sqlite". En esta base de datos, hay una tabla que se llama "CALENDARIO", esta tabla tiene varias columnas, en particular una que se llama "Dia_year" con una entrada correspondiente a cada día del año 2025, otras columnas denominadas Personas_T1, Personas_vacaciones, Personas_baja, Personas_medico y Personas_teletrabajo y Personas_teletrabajo_tarde, en estas últimas columnas aparecen los nombres de varias personas separadas por coma. 
+El código debe abrir un calendario de google e incluir un evento en el calendario, que ocupe todo el día y con titulo los nombre que aparezcan en el campo Personas_T1, en las notas del evento aparecerán los nombres del resto de columnas con las personas que aparezcan en los campos, ej: Personas_vacaciones: persona1,persona2, Personas_baja:persona3, persona3 etc... Esto debe hacerlo para el jueves 30 de enero

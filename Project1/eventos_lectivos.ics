@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250210
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: MARTA\,PAULA\,FABIO\nPersonas_teletrabajo_tarde: OSCAR
+SUMMARY:J_DAVID\,J_MARIA
+UID:cdeacd08-4915-426f-8492-d645888fe367@cdea.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250211
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: ENRIQUE\,IRENE
+SUMMARY:PAULA\,FABIO
+UID:90fd042e-03ee-45f9-b71b-6a84750911d4@90fd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250217
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_vacaciones: PAULA\nPersonas_teletrabajo: MARTA\,FABIO\nPersonas_teletrabajo_tarde: OSCAR
+SUMMARY:J_MARIA\,OSCAR
+UID:803c9773-bd5c-4ff1-bc11-813681fc6034@803c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250213
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: MARTA\,PAULA
+SUMMARY:J_DAVID\,ENRIQUE
+UID:10b5435f-aa91-4d4c-9f39-2464cec2661d@10b5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250204
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_baja: ENRIQUE\,IRENE
+SUMMARY:FABIO\,PAULA
+UID:e3eed56e-2df5-45a5-94b4-fd92709144c7@e3ee.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250219
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: J_DAVID\nPersonas_teletrabajo_tarde: OSCAR
+SUMMARY:ENRIQUE\,IRENE
+UID:45be8a61-f89a-448e-a53a-4bd94bdc263b@45be.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250224
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: MARTA\,PAULA\,FABIO\nPersonas_teletrabajo_tarde: OSCAR
+SUMMARY:OSCAR\,J_DAVID
+UID:bb9a998a-ffd9-40b2-bf61-52b5b84c004b@bb9a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250214
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: J_DAVID\,FABIO\r\n
+SUMMARY:IRENE\,PAULA
+UID:ef2ba711-19f1-4a2c-9f00-551b9f092191@ef2b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250226
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_vacaciones: MARTA\nPersonas_teletrabajo: J_DAVID\nPersonas_teletrabajo_tarde: OSCAR
+SUMMARY:ENRIQUE\,IRENE
+UID:3ef6b506-2229-49ef-8756-632c5b38afe3@3ef6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250206
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_medico: FABIO\nPersonas_teletrabajo: MARTA\,PAULA
+SUMMARY:ENRIQUE\,IRENE
+UID:dd800120-709d-4945-9a9e-0bc1b7e87707@dd80.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250221
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: J_DAVID\,FABIO\r\n
+SUMMARY:PAULA\,J_MARIA
+UID:01c3b2fc-bcee-4426-8d26-6f10d9293c35@01c3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250220
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: MARTA\,PAULA
+SUMMARY:J_DAVID\,FABIO
+UID:83376511-d5c0-4292-aab8-357d7dae2312@8337.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250205
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_baja: ENRIQUE\,IRENE\nPersonas_teletrabajo: J_DAVID\nPersonas_teletrabajo_tarde: OSCAR
+SUMMARY:FABIO\,MARTA
+UID:aad100bc-f72b-43e9-90cb-f80e96e2abb6@aad1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250203
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_baja: ENRIQUE\,IRENE\nPersonas_medico: FABIO\nPersonas_teletrabajo: MARTA\,PAULA\,FABIO\nPersonas_teletrabajo_tarde: OSCAR
+SUMMARY:OSCAR\,J_MARIA
+UID:60eac85d-5d69-45bb-a822-a947d4f0ba46@60ea.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250227
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: MARTA\,PAULA
+SUMMARY:FABIO\,J_MARIA
+UID:52248a2b-e8a1-4fee-ab84-72e36b3c37bd@5224.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250225
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: ENRIQUE\,IRENE
+SUMMARY:MARTA\,PAULA
+UID:ed63df8e-e58b-418c-b28a-aeed8709ae76@ed63.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250228
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: J_DAVID\,FABIO\r\n
+SUMMARY:OSCAR\,MARTA
+UID:ae4e5fc5-7c3e-4bfe-a8bc-cb26b22befee@ae4e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250207
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: J_DAVID\,FABIO\r\n
+SUMMARY:ENRIQUE\,IRENE
+UID:83680492-aa80-4303-bd0a-ef5fd37f64ff@8368.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250218
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: ENRIQUE\,IRENE
+SUMMARY:FABIO\,MARTA
+UID:a538ec9a-676b-40a2-9229-766dc50e65d9@a538.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250212
+DESCRIPTION:Modo_trabajo: Mantenimiento\nPersonas_teletrabajo: J_DAVID\nPersonas_teletrabajo_tarde: OSCAR
+SUMMARY:OSCAR\,MARTA
+UID:11883ce9-c86f-45f6-b1a7-e512335ff6e8@1188.org
+END:VEVENT
+END:VCALENDAR
