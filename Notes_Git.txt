@@ -1,0 +1,67 @@
+Sistema distribuido para control de versiones. Tengo cuenta en Github y Gitlab
+puedo sincronizar proyectos de una en otra.
+ejectuar git bash desde C:\Archivos de Programa\git\
+no usar la terminal de windows.
+Algunos comandos básicos:
+git --version
+git config --global user.name "cruzymendez"
+git config --global unser.mail cruzmvalverde@gmail.com
+git config --global core.editor "notepad"
+# para eliminar el CR de subida y bajada de documentos si se usa windows:
+git config --global core.autocrlf true
+# para linux
+git config --global core.autocrlf input
+
+git config --global -e
+Carpetas:
+cd D:\CLPU\Desarrollo\Rep-Git-1\
+dentro de la carpeta ejecutar git init
+# para acceder a directorios ocultos: ls -a
+# Flujo de trabajo:
+# PC (git add)-> Stage (git commit)-> Commit (git push)-> Server
+
+git status
+git add Project1\. #añado todo lo que está en project1
+git commit -m "actualización 1"
+#para eliminar un archivo: 
+rm file.txt
+git status
+git add file.txt
+git commit -m "eliminar archivo"
+# o más corto
+git rm file.txt
+
+# para eliminar archivo de etapa de stage:
+git restore --stage file.txt
+git restore file.txt
+
+#para cambiar nombre:
+mv file1.txt file2.txt
+git add file1.txt file2.txt
+git commit -m "rename"
+# o más corto:
+git mv file1.txt
+
+#Definir archivos que nunca sean actualizados, ej. password pra conectar BBDD etc.
+# crear un archivo llamado .gitignore y pongo en la primera línea .env, el archivo
+# que no quiero que sea actualizado (en este caso .env)
+add .gitignore
+git commit -m gitignore
+
+#crear ramas de desarrollo:
+git checkout -b nombre_rama
+git checkout master
+#para merge la rama
+merge ramab
+
+#actualizar todo en el servidor
+git remote add origin https://github.com/Cruzymendez/Rep-Git-1.git #Para Github
+git push -u origin master
+
+#conseguir el token en github:
+#profile->settings-> <> Developer settings -> Personal access tokens -> tokens
+Nota: nombre_token
+tickear opciones de repo y generarlo y pegar
+
+#para bajar un repo al PC utilizar git clone http:.. dirección del repo. 
+
