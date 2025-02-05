@@ -5,6 +5,7 @@ sincronizarse entre sí.
 Sistema distribuido para control de versiones. Tengo cuenta en Github y Gitlab
 puedo sincronizar proyectos de una en otra.
 ejectuar git bash desde C:\Archivos de Programa\git\
+ejecutar git init
 no usar la terminal de windows.
 Algunos comandos básicos:
 git --version
