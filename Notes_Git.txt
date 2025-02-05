@@ -61,7 +61,7 @@ merge ramab
 
 #actualizar todo en el servidor
 git remote add origin https://github.com/Cruzymendez/Rep-Git-1.git #Para Github
-git remote set-url origin https://gitlab.com/area_tecnica/SEG_Calendario/Rep-Git-1.git #Para Gitlab
+git remote set-url origin https://gitlab.com/area_tecnica/SEG_Calendario/Rep-Git-1 #Para Gitlab
 git push -u origin master
 
 #conseguir el token en github:

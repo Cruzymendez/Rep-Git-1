@@ -17,7 +17,7 @@ def actualizar_desviaciones(conexion):
     cursor.execute("SELECT MNT_M FROM RECUENTO")
     valores = [fila[0] for fila in cursor.fetchall()]
     media = np.mean(valores)
-    desviaciones = [abs(valor - media) for valor in valores]
+    desviaciones = [valor - media for valor in valores]
 
     # Actualizar la columna DEV_MNT_M en la tabla RECUENTO
     cursor.execute("SELECT NOMBRE FROM RECUENTO")
