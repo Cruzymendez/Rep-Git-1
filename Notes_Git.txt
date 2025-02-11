@@ -26,7 +26,7 @@ dentro de la carpeta ejecutar git init
 # PC (git add)-> Stage (git commit)-> Commit (git push)-> Server
 
 git status
-git add Project1\. #añado todo lo que está en project1
+git add Project1/. #añado todo lo que está en project1
 git commit -m "actualización 1"
 #para eliminar un archivo: 
 rm file.txt
@@ -62,6 +62,7 @@ merge ramab
 #actualizar todo en el servidor
 git remote set-url origin https://github.com/Cruzymendez/Rep-Git-1.git #Para Github
 git remote set-url origin https://gitlab.com/area_tecnica/SEG_Calendario/Rep-Git-1 #Para Gitlab
+git remote add origin https://gitlab.com/area_tecnica/SEG_Calendario/project1.git
 
 # para chequear que ha ido bien:
 git remote -v
