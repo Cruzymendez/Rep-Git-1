@@ -60,8 +60,14 @@ git checkout master
 merge ramab
 
 #actualizar todo en el servidor
-git remote add origin https://github.com/Cruzymendez/Rep-Git-1.git #Para Github
+git remote set-url origin https://github.com/Cruzymendez/Rep-Git-1.git #Para Github
 git remote set-url origin https://gitlab.com/area_tecnica/SEG_Calendario/Rep-Git-1 #Para Gitlab
+
+# para chequear que ha ido bien:
+git remote -v
+debe dar como origin la url del repositorio remoto.
+
+
 git push -u origin master
 
 #conseguir el token en github:
@@ -70,4 +76,7 @@ Nota: nombre_token
 tickear opciones de repo y generarlo y pegar
 
 #para bajar un repo al PC utilizar git clone http:.. dirección del repo. 
+Para descartar cambios en un archivo local:
+git checkout -- archivo.txt
+
 

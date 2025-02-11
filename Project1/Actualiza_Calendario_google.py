@@ -16,8 +16,8 @@ conn = sqlite3.connect(db_path)
 cursor = conn.cursor()
 
 # Fecha objetivo (jueves 30 de enero de 2025)
-fecha_objetivo_inicio = "03/02/2025"
-fecha_objetivo_fin = "28/02/2025"
+fecha_objetivo_inicio = "03/03/2025"
+fecha_objetivo_fin = "23/12/2025"
 
 # Convertir la fecha de "dd/mm/yyyy" a datetime.date
 fecha_inicio = datetime.strptime(fecha_objetivo_inicio, "%d/%m/%Y").date()
