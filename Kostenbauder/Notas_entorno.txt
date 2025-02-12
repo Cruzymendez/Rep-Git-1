@@ -1,0 +1,9 @@
+Crear un acceso directo a JupyterLab en D:
+Si quieres abrir JupyterLab directamente en D: sin usar comandos cada vez, crea un acceso directo:
+
+Haz clic derecho en el escritorio > Nuevo > Acceso directo.
+
+En la ubicación, escribe:
+C:\Users\cruzy\anaconda3\Scripts\jupyter-lab.exe --notebook-dir="D:\trabajo personal\Tesis_2024"
+
+al darle doble click al acceso directo, el jupyterlab apuntará a esa dirección
