@@ -31,7 +31,7 @@ def actualizar_base_datos(conexion):
     
     # fechas iniciales:
     fecha_objetivo_inicio = "01/01/2025"
-    fecha_objetivo_fin = "01/03/2025"
+    fecha_objetivo_fin = "20/12/2025"
     
        # Convertir la fecha de "dd/mm/yyyy" a datetime.date
     fecha_inicio = datetime.strptime(fecha_objetivo_inicio, "%d/%m/%Y").date()
