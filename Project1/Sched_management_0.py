@@ -90,7 +90,7 @@ def algoritmo_greedy_balanceado(conexion, dia_actual):
 def main():
     try:
         conexion = sqlite3.connect("data2025.sqlite")
-        dia_actual = "03/03/2025"  # Fecha actual para el algoritmo
+        dia_actual = "30/03/2025"  # Fecha actual para el algoritmo
         algoritmo_greedy_balanceado(conexion, dia_actual)
         print("El algoritmo greedy balanceado se ejecutó correctamente.")
     except sqlite3.Error as e:

@@ -1,0 +1,35 @@
+% fiber data file
+% dispersion in fs and mm
+% gain: 1 for gain , 0 if no gain is taken into account
+% CP: pumping scheme CP=1 co-propagating, CP=0 counter-propagating
+% Lamp: amplifier length (mm)
+% nslices: number of steps in splitstep method
+% ampliDB: total amplifier gain
+% PAT: Pump absorption
+% SPM, TR, SS, RS, nonlinear parameters, TR: slope of raman gain: 3-5 fs
+% L absorption
+% n2 nonlinear index mm^2 fs mJ^-1
+% a fiber core side in mm.
+% gnrw=1/0 -> with/without gain-narrowing
+% fwhm gain-narrowing
+% Modify the Headerlines number in amplif1 to add more lines…
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+disp1 23.
+disp2 75.4
+disp3 0.
+gain 1
+CP 0
+Lamp 2500
+nslices 250
+ampliDB 16.15
+PAT -10
+SPM 1
+SS 0
+RS 0
+L 0
+n2 3e-2
+a 15e-3
+TR 5
+gnrw 0
+gfwhm 53
