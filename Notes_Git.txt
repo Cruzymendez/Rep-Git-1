@@ -1,8 +1,9 @@
 NOTAS USO GIT (tiene que estar instalado en el PC). Esta misma instalación
-del pc se puede usar con Github o con Gitlab y además Github y Gitlab pueden
+del pc se puede usar con Github o con Gitlab @Cruzymendez y además Github y Gitlab pueden
 sincronizarse entre sí.
 
 Sistema distribuido para control de versiones. Tengo cuenta en Github y Gitlab
+U: cruzmvalverde P: CongoyPuma123
 puedo sincronizar proyectos de una en otra.
 ejectuar git bash desde C:\Archivos de Programa\git\
 ejecutar git init
@@ -79,5 +80,19 @@ tickear opciones de repo y generarlo y pegar
 #para bajar un repo al PC utilizar git clone http:.. dirección del repo. 
 Para descartar cambios en un archivo local:
 git checkout -- archivo.txt
+
+git pull origin master
+
+Si no funciona el checkout y quiero quitar los cambios del todo:
+git reset --hard
+git clean -f 
+git pull origin master
+
+Si quiero guardar los cambios temporalmente (stasth)
+git stash
+git pull origin master
+git stash pop
+
+
 
 
