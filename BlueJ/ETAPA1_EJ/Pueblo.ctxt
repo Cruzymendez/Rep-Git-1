@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=Pueblo
 comment0.text=\r\n\ CLASE\ PUEBLO\r\n\ \r\n\ @author\ (Cruz)\ \r\n\ @version\ (7_3_2025)\r\n
-comment1.params=
-comment1.target=Pueblo()
+comment1.params=s
+comment1.target=Pueblo(java.lang.String)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Pueblo\r\n
 comment2.params=s
 comment2.target=void\ setNombre(java.lang.String)
