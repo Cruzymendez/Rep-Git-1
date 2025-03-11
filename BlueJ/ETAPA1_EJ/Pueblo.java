@@ -8,20 +8,18 @@
 
 public class Pueblo
 {
-    // instance variables - replace the example below with your own
-    // Atributos. Denifen a la clase. Normalmente son sustantivos. Los atributos básicos son string, int, double y float
+    // Atributos
     private String nombre; //Nombre del pueblo.
     private double precioTransporte;
     
     // Metodos
-    
     // Constructor
     /**
      * Constructor for objects of class Pueblo
      */
-    public Pueblo(){
+    public Pueblo(String s){
         // initialise instance variables
-        nombre = "Ninguna";
+        nombre = s;
         precioTransporte = 10;
     }
 
@@ -29,7 +27,6 @@ public class Pueblo
     public void setNombre(String s){
         nombre = s;
     }
-    // no hay problema en que nombre y sueldo tengan la misma variable s porque Java tiene un recolector de basur.
     public void setPrecioTransporte(double s){
         precioTransporte = s;
     }
@@ -41,7 +38,7 @@ public class Pueblo
         return precioTransporte;
     } 
     // Metodos normales
-    // System.out.println : ve al sistema e imprime por su salida...
+    // System.out.println : Imprime por la salida del sistema
     public void imprimeInformacion(){
         System.out.println("Población: " +nombre+"\nPrecio del transporte: "+precioTransporte+" euros");
     }
